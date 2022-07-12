@@ -1,23 +1,10 @@
 
-import imp
+
 from django.shortcuts import render
 from django.views.generic.edit import CreateView
 from .models import Business
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
-# from django.http import HttpResponse
 
-# class Business:
-#     def __init__(self, name, address, city, state, phone, website):
-#         self.name = name
-#         self.address = address
-#         self.city = city
-#         self.state = state
-#         self.phone = phone
-#         self.website = website
-
-# businesses = [
-#     Business('Yellow Green', '3080 Sheridan St', 'Hollywood', 'FL', '(954) 513-3990', 'https://www.ygfarmersmarket.com/')
-# ]
 
 # Create your views here.
 
