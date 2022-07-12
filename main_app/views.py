@@ -18,15 +18,20 @@ from .models import Business
 
 # Create your views here.
 
+
 def home(request):
     # return HttpResponse('<h1>Hello</h1>')
     return render(request, 'home.html')
 
+
 def about(request):
     return render(request, 'about.html')
 
+
 def businesses_index(request):
     businesses = Business.objects.all()
-    return render(request, 'businesses/index.html', { 'businesses': businesses })
+    return render(request, 'businesses/index.html', {'businesses': businesses})
 
-
+def businesses_detail(request, business_id):
+    business = Business.objects.get(id=business_id)
+    return render(request, 'businesses/detail.html', { 'business' : business })
