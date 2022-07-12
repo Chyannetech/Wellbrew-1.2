@@ -11,6 +11,10 @@
         <p>Phone: {{ business.phone }}</p>
         <p>Website: {{ business.website }}</p>
     </div>
+    <div class="card-action">
+        <a href="{% url 'businesses_update' business.id %}">Edit</a>
+        <a href="{% url 'businesses_delete' business.id %}">Delete</a>
+    </div>
 </div>
 
 {% endblock %}
