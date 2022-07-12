@@ -9,4 +9,6 @@ path('about/', views.about, name='about'),
 
 path('businesses/', views.businesses_index, name='index'),
 path('businesses/<int:business_id>/', views.businesses_detail, name='detail'),
+
+path('businesses/create/', views.BusinessCreate.as_view(), name='businesses_create'),
 ]

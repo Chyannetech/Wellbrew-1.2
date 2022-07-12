@@ -1,5 +1,7 @@
 
+import imp
 from django.shortcuts import render
+from django.views.generic.edit import CreateView
 from .models import Business
 # from django.http import HttpResponse
 
@@ -18,7 +20,6 @@ from .models import Business
 
 # Create your views here.
 
-
 def home(request):
     # return HttpResponse('<h1>Hello</h1>')
     return render(request, 'home.html')
@@ -35,3 +36,8 @@ def businesses_index(request):
 def businesses_detail(request, business_id):
     business = Business.objects.get(id=business_id)
     return render(request, 'businesses/detail.html', { 'business' : business })
+
+
+class BusinessCreate(CreateView):
+    model = Business
+    fields = '__all__'
