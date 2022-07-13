@@ -1,1 +1,1 @@
-gunicorn wellbrew.wsgi 
+web: gunicorn wellbrew.wsgi
