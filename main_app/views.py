@@ -44,7 +44,7 @@ def signup(request):
 
 class BusinessCreate(LoginRequiredMixin, CreateView):
     model = Business
-    fields = '__all__'
+    fields = ['name', 'address', 'phone', 'social', 'website']
     success_url = '/businesses/'
 
     def form_valid(self, form):
