@@ -4,6 +4,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 
@@ -41,7 +42,7 @@ def signup(request):
   context = {'form': form, 'error_message': error_message}
   return render(request, 'registration/signup.html', context)
 
-class BusinessCreate(CreateView):
+class BusinessCreate(LoginRequiredMixin, CreateView):
     model = Business
     fields = '__all__'
     success_url = '/businesses/'
@@ -50,10 +51,10 @@ class BusinessCreate(CreateView):
         form.instance.user = self.request.user
         return super().form_valid(form)
 
-class BusinessUpdate(UpdateView):
+class BusinessUpdate(LoginRequiredMixin, UpdateView):
     model = Business
     fields = '__all__'
 
-class BusinessDelete(DeleteView):
+class BusinessDelete(LoginRequiredMixin, DeleteView):
     model = Business
     success_url = '/businesses/'
