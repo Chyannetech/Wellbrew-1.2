@@ -12,7 +12,7 @@ from django.urls import reverse
 
 class Business(models.Model):
     name = models.CharField(max_length=100)
-    booth = models.CharField(max_length=100)
+    address = models.CharField(max_length=100)
     phone = models.CharField(max_length=20)
     social = models.CharField(max_length=100)
     website = models.CharField(max_length=100)
