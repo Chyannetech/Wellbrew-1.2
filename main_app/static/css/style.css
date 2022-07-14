@@ -1,16 +1,55 @@
 body {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  background-color: rgb(122, 120, 114);
+  color: rgb(0, 0, 0);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 footer {
-    padding-top: 0;
-    text-align: right;
+  padding-top: 0;
+  text-align: right;
 }
 
+label {
+  color: white;
+}
+
+nav {
+    background-color: rgb(57, 53, 41);
+}
+
+.page-footer {
+    background-color: rgb(209, 196, 80);
+}
+
+p {
+  color: black;
+}
+
+.card .card-image .card-title {
+  background-color: rgb(0, 0, 0);
+  background-size: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .brand-logo {
+    color:rgb(178, 170, 14)
+}
+
+.brand-logo {
+    font-family: 'Gravitas One', cursive;
+}
+
+h1 {
+    color: white;
+}
