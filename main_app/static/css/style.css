@@ -18,16 +18,17 @@ footer {
 }
 
 label {
-  color: white;
+  color: rgb(175, 126, 3);
 }
 
 nav {
-  background-color: rgb(57, 53, 41);
+  background-color: rgb(47, 77, 22);
   border-bottom: 3px solid transparent;
 }
 
 .page-footer {
-  background-color: rgb(209, 196, 80);
+  color: rgb(236, 236, 231);
+  background-color: rgb(178, 170, 14);
 }
 
 p {
@@ -53,12 +54,19 @@ nav .brand-logo {
 }
 
 h1 {
-  color: rgb(222, 222, 222);
+  color: rgb(236, 236, 231);
   font-family: "Cutive Mono", monospace;
+}
+
+h5 {
+  color: rgb(255, 242, 102);
+  font-weight: 400;
+  font-size: larger;
 }
 
 a {
   color: rgb(178, 170, 14);
+  font-weight: bolder;
 }
 
 .card .card-title {
@@ -67,4 +75,21 @@ a {
 
 .div.row {
   height: 100%;
+}
+
+hr {
+  color: orange;
+}
+
+form {
+  background-color: rgb(236, 236, 231);
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid rgb(222, 108, 21);
+}
+
+table {
+    font-size: large;
 }
