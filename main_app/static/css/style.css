@@ -1,9 +1,11 @@
 body {
-  background-color: rgb(122, 120, 114);
+  background-color: rgb(43, 65, 33);
   color: rgb(0, 0, 0);
   display: flex;
-  min-height: 100vh;
+  height: auto;
+  min-height: 100%;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 main {
@@ -20,48 +22,49 @@ label {
 }
 
 nav {
-    background-color: rgb(57, 53, 41);
-    border-bottom: 3px solid transparent;
-    
+  background-color: rgb(57, 53, 41);
+  border-bottom: 3px solid transparent;
 }
 
 .page-footer {
-    background-color: rgb(209, 196, 80);
+  background-color: rgb(209, 196, 80);
 }
 
 p {
   color: black;
 }
 
-
 .card-title {
-    font-family: 'Cutive Mono', monospace;
-    text-align: center;
-    
+  font-family: "Cutive Mono", monospace;
+  text-align: center;
 }
 
 .row {
- min-height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 nav .brand-logo {
-    color:rgb(178, 170, 14)
+  color: rgb(178, 170, 14);
 }
 
-
-
 .brand-logo {
-    font-family: 'Gravitas One', cursive;
+  font-family: "Gravitas One", cursive;
 }
 
 h1 {
-    color: white;
+  color: rgb(222, 222, 222);
+  font-family: "Cutive Mono", monospace;
 }
 
 a {
-    color:rgb(178, 170, 14)
+  color: rgb(178, 170, 14);
 }
 
 .card .card-title {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.div.row {
+  height: 100%;
 }
