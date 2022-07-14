@@ -2,10 +2,8 @@ body {
   background-color: rgb(43, 65, 33);
   color: rgb(0, 0, 0);
   display: flex;
-  height: auto;
-  min-height: 100%;
+  height: 100%;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 main {
@@ -16,6 +14,7 @@ footer {
   padding-top: 0;
   text-align: right;
 }
+
 
 label {
   color: rgb(175, 126, 3);
@@ -30,6 +29,8 @@ nav {
   color: rgb(236, 236, 231);
   background-color: rgb(178, 170, 14);
 }
+
+
 
 p {
   color: black;
@@ -91,5 +92,5 @@ form {
 }
 
 table {
-    font-size: large;
+  font-size: large;
 }
