@@ -37,7 +37,7 @@
 
 
 ## <a name="deployment"></a>Deployed Link
-* Discover local businesses and keep track of them all in the same place. Sign up as a user for full access here: [The Wellbrew]()
+* Discover local businesses and keep track of them all in the same place. Sign up as a user for full access here: [Wellbrew](https://wellbrew.herokuapp.com/)
 
 
 
