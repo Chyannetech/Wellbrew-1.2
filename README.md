@@ -1,6 +1,8 @@
 ## Wellbrew 
 #### Wellbrew is a Full CRUD business tracking application that was made using Django.
 
+###### The goal of Wellbrew is to introduce users to local wellness related businesses and to also help keep track of them inside of their own customized list. 
+
 <img width="1367" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/178973750-8477b5d7-75c2-4f89-8699-def5a7a481a2.png">
 
 <img width="1409" alt="About" src="https://user-images.githubusercontent.com/103911002/178981123-a537203b-60fe-4a1f-bc07-a7a498d96996.png">
