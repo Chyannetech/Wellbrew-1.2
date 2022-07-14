@@ -1,7 +1,11 @@
 ## Wellbrew 
-#### Wellbrew is a Full CRUD business tracking application that was made using Django. 
+#### Wellbrew is a Full CRUD business tracking application that was made using Django.
 
-<img src="blob:https://imgur.com/c6af95a6-13dd-4cdb-b441-1df948264d50" alt="Wellbrew"/>
+<img width="1367" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/178973750-8477b5d7-75c2-4f89-8699-def5a7a481a2.png">
+
+<img width="1376" alt="About" src="https://user-images.githubusercontent.com/103911002/178973933-7a256212-2866-48f0-adf6-5c860f3fb747.png">
+
+<img width="1366" alt="Sign Up" src="https://user-images.githubusercontent.com/103911002/178975124-683379dd-5dba-46e7-b40b-defa7c82d7d7.png">
 
 ## Table of Contents
 * [Technologies Used](#technologiesused)
@@ -26,12 +30,14 @@
 
 ## <a name="nextsteps"></a>Project Next Steps
 * AWS 
-* Add another model (categories)
-* Adjust styling
+* Categorize businesses and link to home page.
 * Create Cards for each business with detailed information.
 * Add a save feature 
+* Adjust styling
 
 
 ## <a name="deployment"></a>Deployed Link
-* Deployment: [The PomoTom App]()
+* Discover local businesses and keep track of them all in the same place. Sign up as a user for full access here: [The Wellbrew]()
+
+
 
