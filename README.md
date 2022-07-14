@@ -23,8 +23,8 @@
 * Google Fonts
 
 ## Planning
-* Link to Trello: [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-12)
-* Link to Entity Relationship Diagram: [ERD](https://drawsql.app/general-assembly-28/diagrams/wellbrew)
+* Link to [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-12)
+* Link to [Entity Relationship Diagram](https://drawsql.app/general-assembly-28/diagrams/wellbrew)
 * Link to [Wireframe](https://www.figma.com/file/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=0%3A1)
 
 ## <a name="nextsteps"></a>Project Next Steps
