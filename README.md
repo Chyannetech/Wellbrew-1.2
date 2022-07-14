@@ -32,7 +32,7 @@
 * Categorize businesses and link to home page.
 * Create Cards for each business with detailed information.
 * Add a save feature 
-* Adjust styling
+* Adjust styling for mobile view
 
 
 ## <a name="deployment"></a>Deployed Link
