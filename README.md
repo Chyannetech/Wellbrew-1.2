@@ -28,11 +28,10 @@
 * Link to [Wireframe](https://www.figma.com/file/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=0%3A1)
 
 ## <a name="nextsteps"></a>Project Next Steps
-* AWS 
-* Categorize businesses and link to home page.
-* Create Cards for each business with detailed information.
-* Add a save feature 
-* Adjust styling for mobile view
+* Add a catgory model that links businesses to homepage.
+* AWS for catgory and businesses.
+* Add a like feauture to businesses.
+* Additional CSS 
 
 
 ## <a name="deployment"></a>Deployed Link
