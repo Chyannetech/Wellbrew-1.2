@@ -27,6 +27,7 @@
 
 ## Trello Planning
 * Link to Trello: [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-12)
+## Link to Entity Relationship Diagram: [ERD](https://drawsql.app/general-assembly-28/diagrams/wellbrew)
 
 ## <a name="nextsteps"></a>Project Next Steps
 * AWS 
