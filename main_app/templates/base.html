@@ -12,6 +12,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       type="text/css"
       href="{% static 'css/style.css' %}"
@@ -26,15 +30,19 @@
     rel="stylesheet"
   />
   <body>
+    <!-- Dsktop Menu -->
     <header class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
+          <a href="#" data-target="mobile-demo" class="right sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
           <ul>
             <li>
-              <a href="/" class="left brand-logo">&nbsp;&nbsp;Wellbrew</a>
+              <a href="/" class="left brand-logo">Wellbrew</a>
             </li>
           </ul>
-          <ul class="right">
+          <ul class="right hide-on-med-and-down">
             <li><a href="/">Home</a></li>
             <li><a href="/directory">Directory</a></li>
             {% if user.is_authenticated %}
@@ -48,10 +56,54 @@
           </ul>
         </div>
       </nav>
+      <!--  -->
+
+      <!-- Mobile Menu -->
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Home</a></li>
+        <li><a href="/directory">Directory</a></li>
+        {% if user.is_authenticated %}
+        <li><a href="{% url 'businesses_create' %}">Add a Business</a></li>
+        <li><a href="{% url 'index' %}">View All Businesses</a></li>
+        <li><a href="{% url 'logout' %}">Log Out</a></li>
+        {% else %}
+        <li><a href="{% url 'signup' %}">Sign Up</a></li>
+        <li><a href="{% url 'login' %}">Log In</a></li>
+        {% endif %}
+      </ul>
     </header>
+      <!--  -->
+
     <main class="container">{% block content %} {% endblock %}</main>
     <footer class="page-footer">
+      <div class="left">
+        <a href="https://github.com/Chyannetech/Wellbrew-1.2">
+          <ion-icon size="large" name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/chyannerobbins/">
+          <ion-icon size="large" name="logo-linkedin"></ion-icon>"
+        </a>
+      </div>
       <div class="right">All Rights Reserved &copy; 2022 Wellbrew &nbsp;</div>
     </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script>
+      
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+    </script>
+ 
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>  
   </body>
 </html>
