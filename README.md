@@ -1,7 +1,5 @@
 ## Wellbrew 
-#### Wellbrew is a Full CRUD farmers market business tracking application that was made using Django.
-
-* The main goal is to help users discover local wellness businesses and keep track of them all in the same place. 
+#### Wellbrew is a Full CRUD farmers market business/vendor tracking application that was made using Django.
 
 <img width="1367" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/178973750-8477b5d7-75c2-4f89-8699-def5a7a481a2.png">
 
