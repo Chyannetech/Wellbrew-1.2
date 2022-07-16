@@ -24,12 +24,13 @@
 * Google Fonts
 
 ## Planning
-* Link to [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-14)
+* Follow the progress of Wellbrew [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-14)
 
 ## <a name="nextsteps"></a>Project Next Steps
 * Add a catgory model that links businesses to homepage.
 * AWS for catgory and businesses.
 * Add a like feauture to businesses.
+* Add USDA farmers market API.
 * Additional CSS 
 
 
