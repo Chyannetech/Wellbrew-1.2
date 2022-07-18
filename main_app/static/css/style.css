@@ -60,10 +60,10 @@ ion-icon {
   color:aliceblue
 }
 
-/* .sidenav-overlay {
-  color: rgb(212, 212, 212);
-  
-} */
+.sidenav-overlay {
+  height: 0px;
+  width: 0px;
+}
 
 h1 {
   color: rgb(236, 236, 231);
