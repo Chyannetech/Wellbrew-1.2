@@ -1,11 +1,9 @@
 ## Wellbrew 
 #### Wellbrew is a Full CRUD farmers market business/vendor tracking application that was made using Django.
 
-<img width="1367" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/179635950-dc90bdcb-c602-4491-b5a7-28aa652a6570.png">
+<img width="500" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/179635950-dc90bdcb-c602-4491-b5a7-28aa652a6570.png">
 
-<img width="1409" alt="About" src="https://user-images.githubusercontent.com/103911002/178981123-a537203b-60fe-4a1f-bc07-a7a498d96996.png">
-
-<img width="1366" alt="Sign Up" src="https://user-images.githubusercontent.com/103911002/178975124-683379dd-5dba-46e7-b40b-defa7c82d7d7.png">
+<img width="500" alt="Sign Up" src="https://user-images.githubusercontent.com/103911002/178975124-683379dd-5dba-46e7-b40b-defa7c82d7d7.png">
 
 ## Table of Contents
 * [Technologies Used](#technologiesused)
@@ -30,8 +28,10 @@
 * Follow the progress of Wellbrew [Trello Board](https://trello.com/b/b2OoGCiU/wellbrew)
 
 ## <a name="nextsteps"></a>Project Next Steps
+![wireflow2](https://user-images.githubusercontent.com/103911002/180382121-6f4770dc-d186-47ba-aa7a-9ae99a23bcde.png)
+
 * Add a catgory model that links businesses to homepage.
-* AWS for catgory and businesses.
+* AWS for businesses.
 * Add a like feauture to businesses.
 * Add USDA farmers market API.
 * Additional CSS 
