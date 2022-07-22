@@ -24,10 +24,10 @@
 * Google Fonts
 
 ## <a name="deployment"></a>Deployed Link
-* Sign up as a user for full access here: [Wellbrew](https://wellbrew.herokuapp.com/)
+* Visit the deployed app here: [Wellbrew](https://wellbrew.herokuapp.com/)
 
 ## Planning
-* Follow the progress of Wellbrew [Trello Board](https://trello.com/b/8e4abGCq/wellbrew-14)
+* Follow the progress of Wellbrew [Trello Board](https://trello.com/b/b2OoGCiU/wellbrew)
 
 ## <a name="nextsteps"></a>Project Next Steps
 * Add a catgory model that links businesses to homepage.
