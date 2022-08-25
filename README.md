@@ -2,6 +2,8 @@
 
 #### Wellbrew is a full-stack app that uses the Python-based Django Web Framework to track vendors at farmers mmarkets. Users are able to access vendor information which is managed and updated by an admin user account. 
 
+* Visit the deployed app here: [Wellbrew](https://wellbrew.herokuapp.com/)
+
 <img width="500" alt="Home Page" src="https://user-images.githubusercontent.com/103911002/179635950-dc90bdcb-c602-4491-b5a7-28aa652a6570.png">
 
 <img width="500" alt="Sign Up" src="https://user-images.githubusercontent.com/103911002/178975124-683379dd-5dba-46e7-b40b-defa7c82d7d7.png">
@@ -79,6 +81,7 @@ urlpatterns = [
     path('accounts/signup/', views.signup, name='signup'),
 ]
 ```
+
 ## <a name="deployment"></a>Deployed Link
 * Visit the deployed app here: [Wellbrew](https://wellbrew.herokuapp.com/)
 
@@ -101,6 +104,14 @@ urlpatterns = [
 ![wireflow2](https://user-images.githubusercontent.com/103911002/180382121-6f4770dc-d186-47ba-aa7a-9ae99a23bcde.png)
 
 * View the prototype [here.](https://www.figma.com/proto/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=20%3A45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A45)
+
+### Strengths:
+I had a clear vision of what I wanted my application to look like and the docuemntation was a great reference for getting things set up quickly. Futhermore, Materilize UI was used for styling which allowed for much more creativity in the design. 
+### Weaknesses:
+Staying on task with MVP and not letting feature creep take over.  
+### Opportunities:
+To reinforce all of the concepts learned during this project and get more reps in using PostgreSQL. 
+
 
 * Background image by one of Disney's amazing artist: [Nicholas Kennedy](https://paintwithnick.artstation.com/projects/W2dDZy)
 
