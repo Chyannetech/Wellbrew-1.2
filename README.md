@@ -98,8 +98,7 @@ urlpatterns = [
 |July 18| Presentations | Complete
 
 ## <a name="postmvp"></a>Post MVP
-* Add a catgory model that links businesses to homepage and directory.
-* AWS for businesses.
+* Add a catgory model to link vendor information to the homepage and directory.
 * Additional CSS to match prototype
 ![wireflow2](https://user-images.githubusercontent.com/103911002/180382121-6f4770dc-d186-47ba-aa7a-9ae99a23bcde.png)
 
