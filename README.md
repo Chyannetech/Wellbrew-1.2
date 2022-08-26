@@ -1,6 +1,6 @@
 ## Wellbrew
 
-#### Wellbrew is a full-stack app that uses the Python-based Django Web Framework to track vendors at farmers mmarkets. Users are able to access vendor information which is managed and updated by an admin user account. 
+#### Wellbrew is a full-stack app that uses the Python-based Django Web Framework to track vendors at farmers markets. Users are able to access vendor information that is managed and updated by an admin user account. 
 
 * Visit the deployed app here: [Wellbrew](https://wellbrew.herokuapp.com/)
 
