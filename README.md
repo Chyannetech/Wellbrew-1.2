@@ -104,8 +104,13 @@ urlpatterns = [
 
 * View the prototype [here.](https://www.figma.com/proto/KF6Do2q6FTRQAE8PccbngJ/Wellbrew?node-id=20%3A45&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A45)
 
+## Planning 
+<img width="685" alt="ERD" src="https://user-images.githubusercontent.com/103911002/186854386-8511b162-fc41-40ae-a439-eb6740a80f93.png">
+
+## Swot Analysis
 ### Strengths:
 I had a clear vision of what I wanted my application to look like and the docuemntation was a great reference for getting things set up quickly. Futhermore, Materilize UI was used for styling which allowed for much more creativity in the design. 
+
 ### Weaknesses:
 Staying on task with MVP and not letting feature creep take over.  
 ### Opportunities:
