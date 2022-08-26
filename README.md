@@ -68,7 +68,17 @@
     </div>
 </div>
 ```
-## <a name="routes"></a>Routes  
+## <a name="routes"></a>Routes 
+
+###### URLconf module
+```
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('main_app.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
+]
+```
+###### Main
 ```
 urlpatterns = [
     path('', views.home, name='home'),
